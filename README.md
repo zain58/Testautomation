@@ -1,3 +1,4 @@
+### Extract zainnomantest.zip
 ### selenium-cucumber-java
 
 This repository contains a collection of sample `selenium-cucumber-java` projects and libraries that demonstrate how to
@@ -7,7 +8,7 @@ also generate `error shots` for your failed test cases as well.
 
 ### Installation (pre-requisites)
 
-1. JDK 1.8+ (make sure Java class path is set)
+1. JDK 1.7 (make sure Java class path is set)
 2. Maven (make sure .m2 class path is set)
 3. Eclipse
 4. Eclipse Plugins for
@@ -17,8 +18,7 @@ also generate `error shots` for your failed test cases as well.
 
 ### Framework set up
 
-Fork / Clone repository from [here]( https://github.com/amiya-pattnaik/selenium-cucumber-java) or download zip and set
-it up in your local workspace.
+download zip and set it up in your local workspace.
 
 ### Run Some Sample Tests
 
@@ -35,7 +35,13 @@ selenium browser driver version are varies based on the browser version that you
 version.
 
 - To run specific feature if you have multiple feature files use,
-  `mvn test -Dcucumber.options="classpath:features/my_first.feature"`
+  `mvn test -Dcucumber.options="classpath:features/login.feature"`
+  
+  If you want to run the whole project then go to this directory TestAutomation\src\test\java\TestProject\main.java
+and click right click and run with java application 
+
+or if you want to run cucumber test cases  go to src\test\resources\Features\Login.feature 
+and click right click and run with cucmber features
 
 ### Reporters
 
